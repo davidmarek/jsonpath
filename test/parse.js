@@ -53,6 +53,15 @@ suite('parse', function() {
     ])
   });
 
+  test('parse path for all keys in store', function() {
+    var path = jp.parse('$.store.*~');
+    assert.deepEqual(path, [
+      { expression: { type: 'root', value: '$' } },
+      { operation: 'member', scope: 'child', expression: { type: 'identifier', value: 'store' } },
+      { operation: 'member', scope: 'child', expression: { type: 'star_tilde', value: '*~' } }
+    ])
+  });
+
   test('parse path for price of everything in the store', function() {
     var path = jp.parse('$.store..price');
     assert.deepEqual(path, [

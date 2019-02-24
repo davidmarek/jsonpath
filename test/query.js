@@ -48,6 +48,13 @@ suite('query', function() {
     ]);
   });
 
+  test('all keys in first store', function() {
+    var results = jp.nodes(data, '$.store.*~');
+    assert.deepEqual(results, [
+      { path: ['$', 'store'], value: ['book', 'bicycle'] }
+    ]);
+  });
+
   test('price of everything in the store', function() {
     var results = jp.nodes(data, '$.store..price');
     assert.deepEqual(results, [
