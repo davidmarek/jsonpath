@@ -1,8 +1,8 @@
 {
-  "name": "jsonpath",
-  "description": "Query JavaScript objects with JSONPath expressions. Robust / safe JSONPath engine for Node.js.",
+  "name": "@davidmarek/jsonpath",
+  "description": "Fork of jsonpath package created by david@fmail.co.uk.",
   "version": "1.0.0",
-  "author": "david@fmail.co.uk",
+  "author": "david@marek.me",
   "scripts": {
     "postinstall": "node lib/aesprim.js > generated/aesprim-browser.js",
     "test": "mocha -u tdd test && jscs lib && jshint lib",
