@@ -51,7 +51,8 @@ suite('query', function() {
   test('all keys in first store', function() {
     var results = jp.nodes(data, '$.store.*~');
     assert.deepEqual(results, [
-      { path: ['$', 'store'], value: ['book', 'bicycle'] }
+      { path: ['$', 'store', 'book'], value: 'book' },
+      { path: ['$', 'store', 'bicycle'], value: 'bicycle' }
     ]);
   });
 
