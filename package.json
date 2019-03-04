@@ -12,7 +12,7 @@
   "dependencies": {
     "esprima": "1.2.2",
     "jison": "0.4.13",
-    "static-eval": "2.0.0",
+    "static-eval": "^2.0.2",
     "underscore": "1.7.0"
   },
   "browser": {
@@ -24,7 +24,7 @@
     "grunt-cli": "0.1.13",
     "grunt-contrib-uglify": "0.9.1",
     "jscs": "1.10.0",
-    "jshint": "2.6.0",
+    "jshint": "^2.10.1",
     "mocha": "2.1.0"
   },
   "repository": {
