@@ -25,7 +25,7 @@
     "grunt-contrib-uglify": "^5.0.0",
     "jison": "0.4.18",
     "jshint": "^2.10.1",
-    "mocha": "^6.1.4"
+    "mocha": "^8.1.2"
   },
   "repository": {
     "type": "git",
