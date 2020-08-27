@@ -10,9 +10,9 @@
   },
   "types": "./index.d.ts",
   "dependencies": {
-    "esprima": "1.2.2",
+    "esprima": "4.0.1",
     "static-eval": "^2.0.2",
-    "underscore": "1.7.0"
+    "underscore": "^1.10.2"
   },
   "browser": "./jsonpath.js",
   "alias": {
@@ -22,10 +22,10 @@
     "grunt": "^1.0.4",
     "grunt-browserify": "^5.3.0",
     "grunt-cli": "^1.3.2",
-    "grunt-contrib-uglify": "^4.0.1",
-    "jison": "0.4.13",
+    "grunt-contrib-uglify": "^5.0.0",
+    "jison": "0.4.18",
     "jshint": "^2.10.1",
-    "mocha": "^6.1.4"
+    "mocha": "^8.1.2"
   },
   "repository": {
     "type": "git",
