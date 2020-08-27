@@ -23,7 +23,7 @@
     "grunt-browserify": "^5.3.0",
     "grunt-cli": "^1.3.2",
     "grunt-contrib-uglify": "^5.0.0",
-    "jison": "0.4.13",
+    "jison": "0.4.18",
     "jshint": "^2.10.1",
     "mocha": "^6.1.4"
   },
